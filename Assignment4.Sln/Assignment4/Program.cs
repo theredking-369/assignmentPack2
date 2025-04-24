@@ -24,7 +24,7 @@
                 foreach (Bicycle bicycle in myBicycles)
                 {
                     Console.WriteLine($"The {bicycle.getModel()} is travelling at {bicycle.getSpeed()}km/hour, " +
-                        $"Mileage is {Math.Round(bicycle.getDistance(), 2)}");
+                        $"Distance traveled is {Math.Round(bicycle.getDistance(), 2)} km");
 
                 }
                 Console.WriteLine("");
